@@ -21,13 +21,13 @@
         var regEx = /^[a-zA-Z]*$/;
         var result = regEx.test(value);
         if (!result) {
-            alert("Name Is Invalide..Please Input Only Letters");
+            alert("Name Is Invalid.Please Input Only Letters");
         }
     })
  ;
     $("#inputPassword2").keyup(function () {
-    if($("#inputPassword2").val().length>4){
-        alert("Name Is Invalide..Please Input Only Letters")
+    if($("#inputPassword2").val().length>20){
+        alert("Name Is Invalid.Please Input Only Letters")
     }
 })
 //validation for salary
@@ -42,7 +42,7 @@
     })
  ;
     $("#inputPassword").keyup(function () {
-    if($("#inputPassword").val().length>4){
+    if($("#inputPassword").val().length>8){
         alert("Please input Salary Like : 0000.00")
     }
 })
