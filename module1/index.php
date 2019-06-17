@@ -21,52 +21,56 @@
 </head>
 <body>
 
-<form action="#" method="post" id="form1">
+<div class="container-fluid">
+    <p class="navbar-text" style="font-size: 30px;font-family: 'Agency FB';color: #005cbf">This is Customer form with Regular Expressions</p>
+
+
+    <form action="#" method="post" id="form1">
 
     <div class="form-group row">
-        <label for="inputPassword" class="col-sm-2 col-form-label">Customer ID</label>
+        <label for="inputPassword" class="col-sm-2 col-form-label">Customer ID :</label>
         <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword1" placeholder="Customer Id" name="CustId">
-            <span>Ex:-Cxx</span>
+            <input type="text" class="form-control" id="inputPassword1" placeholder="CID" name="CustId">
+            <span></span>
         </div>
     </div>
-
+        <br>
     <div class="form-group row">
-        <label for="inputPassword" class="col-sm-2 col-form-label">Customer Name</label>
+        <label for="inputPassword" class="col-sm-2 col-form-label">Customer Name :</label>
         <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword2" placeholder="Customer Name" name="Custname">
-            <span>Ex:-Isuru Umayanga</span>
+            <input type="text" class="form-control" id="inputPassword2" placeholder="Name" name="Custname">
+            <span></span>
         </div>
     </div>
-
+        <br>
     <div class="form-group row">
-        <label for="inputPassword" class="col-sm-2 col-form-label">Customer Address</label>
+        <label for="inputPassword" class="col-sm-2 col-form-label">Address :</label>
         <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword3" placeholder="Customer Address" name="CustAddress">
+            <input type="text" class="form-control" id="inputPassword3" placeholder="Address" name="CustAddress">
 
         </div>
     </div>
-
+        <br>
     <div class="form-group row">
-        <label for="inputPassword" class="col-sm-2 col-form-label">Customer Telephone</label>
+        <label for="inputPassword" class="col-sm-2 col-form-label">Telephone :</label>
         <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword4" placeholder="CustomerTelephone" name="Custtel">
+            <input type="text" class="form-control" id="inputPassword4" placeholder="Telephone" name="Custtel">
         </div>
     </div>
-
+        <br>
     <div class="form-group row">
-        <label for="inputPassword" class="col-sm-2 col-form-label">Customer Salary</label>
+        <label for="inputPassword" class="col-sm-2 col-form-label">Salary :</label>
         <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" placeholder="Customer Salary" name="Custsalary">
+            <input type="text" class="form-control" id="inputPassword" placeholder="Salary" name="Custsalary">
         </div>
     </div>
+        <br>
 
-
-    <button type="submit" class="btn btn-primary" id="btnsubmit">Submit</button>
+    <button type="submit" class="btn btn-success" id="btnsubmit" style="width: 100px;float: right">Submit</button>
 
 </form>
 
-
+</div>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/myjss.js"></script>
 </body>
